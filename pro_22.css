@@ -1,0 +1,622 @@
+        :root {
+            --gold: #ffda79;
+            --dark-bg: #000000;
+            --text-light: #ffffff;
+            --text-dim: #bbbbbb;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--dark-bg);
+            color: var(--text-light);
+            font-family: 'Poppins', sans-serif;
+            overflow-x: hidden;
+            background-image: url('https://websitedemos.net/jewellery-04/wp-content/uploads/sites/188/2018/03/body-bg-free-img.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        .main-header {
+            padding: 40px 20px;
+            text-align: center;
+            background: transparent;
+            
+        }
+
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .logo-box {
+            padding: 5px 15px;
+            color: var(--gold);
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .logo-text {
+            letter-spacing: 8px;
+            font-weight: 300;
+            font-size: 26px;
+            text-transform: uppercase;
+        }
+
+        .nav-menu {
+            display: flex;
+            justify-content:center;
+            gap: 25px;
+            flex-wrap: wrap; 
+        }
+
+        .nav-menu a {
+            color: var(--text-dim);
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: 1.5px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-menu a:hover, .nav-menu a.active {
+            color: var(--gold);
+        }
+
+        .cart-section {
+            margin-top: 20px;
+            color: var(--gold);
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .hero-section {
+            padding: 0 20px 50px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-banner {
+            width: 100%;
+            max-width: 1200px;
+            height: 660px;
+            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://websitedemos.net/jewellery-04/wp-content/uploads/sites/188/2020/02/rings.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end; 
+            padding: 0 8%;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero-text-box {
+            max-width: 450px;
+        }
+
+        .hero-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(40px, 8vw, 70px);
+            margin: 0;
+            line-height: 1.1;
+        }
+
+        .hero-subtitle {
+            font-size: 24px;
+            font-style: italic;
+            color: #efefef;
+            margin: 10px 0 20px 0;
+        }
+
+        .hero-desc {
+            color: var(--text-dim);
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 35px;
+        }
+
+        .btn-shop {
+            display: inline-block;
+            padding: 14px 40px;
+            border: 1px solid var(--gold);
+            color: var(--gold);
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 11px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            transition: all 0.4s ease;
+            text-transform: uppercase;
+        }
+
+        .btn-shop:hover {
+            background-color: var(--gold);
+            color: #000;
+            transform: translateY(-3px);
+        }
+.jewelry-section {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  background: #000;
+  flex-wrap: wrap;
+}
+
+.jewelry-card {
+  flex: 1;
+  min-width: 300px;
+  background: #111;
+  border-radius: 12px;
+  padding: 30px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.left {
+  text-align: center;
+}
+
+.left h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.left p {
+  color: #bbb;
+  margin-bottom: 20px;
+}
+
+.left img {
+  width: 100%;
+  max-width: 280px;
+  margin-top: 20px;
+}
+
+.right {
+  background: #0b0b0b;
+}
+
+.right h2 {
+  font-size: 30px;
+  line-height: 1.4;
+  margin-top: 60px;
+}
+
+.diamond {
+  position: absolute;
+  width: 90px;
+}
+
+.d1 {
+  top: 20px;
+  right: 50px;
+}
+
+.d2 {
+  top: 80px;
+  left: 30px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 22px;
+  border-radius: 25px;
+  border: 1px solid gold;
+  background: transparent;
+  color: gold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: gold;
+  color: black;
+}
+
+
+
+.necklace-section{
+    padding: 0 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+.necklace-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    line-height: 2.1;
+}
+.necklace-text-img{
+    background-image: url('https://websitedemos.net/jewellery-04/wp-content/uploads/sites/188/2020/02/pic-01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 70vh;
+    padding: 30px;
+    text-align: center;
+      font-family: 'Playfair Display',serif;
+  
+}
+.necklace-text-img p{
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.necklace-btn{
+    margin-top: 20px;
+  padding: 16px 36px;
+  border-radius: 25px;
+  border: 1px solid gold;
+  background: transparent;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.3s;
+  font-size: 16px;
+}
+.necklace-btn:hover {
+    background-color: #ffda79;
+  color: black;
+
+}
+
+.necklace-text-img2{
+     background-image: url('https://websitedemos.net/jewellery-04/wp-content/uploads/sites/188/2020/02/earrings-free-img-1.jpg');
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 700px;
+    height: 70vh;
+    position: relative;
+}
+.necklace-text{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    line-height: normal;
+    font-family: 'Playfair Display',serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+}
+
+.necklace-btn2{
+    margin-top: 90px;
+  padding: 16px 36px;
+  border-radius: 25px;
+  border: 1px solid gold;
+  background: transparent;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  transition: 0.3s;
+  font-size: 16px;
+}
+.necklace-btn2:hover {
+    background-color: #ffda79;
+  color: black;
+}
+
+
+.necklace-section2 {
+   padding: 40px 20px;
+    gap: 30px;
+}
+
+.necklace-container2 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.necklace-box2 {
+   flex: 1;
+    min-width: 300px;
+    height: 400px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.necklace-text-img-2 {
+    background: url('https://websitedemos.net/jewellery-04/wp-content/uploads/sites/188/2020/02/man-with-hat-free-img.jpg') center/cover no-repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.necklace-text-img1 {
+    background: url('https://websitedemos.net/jewellery-04/wp-content/uploads/sites/188/2020/02/woman-jewelry-free-img.jpg') center/cover no-repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.necklace-text-img-2,
+.necklace-text-img1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+
+.necklace-text-img-2::after,
+.necklace-text-img1::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    inset: 0;
+    top: 0;
+    left: 0;
+}
+
+.necklace-text2,
+.necklace-text-img1 {
+    position: absolute;
+    z-index: 2;
+    left: 20px;
+    right: 20px;
+    bottom: 30px;
+}
+
+.necklace-text2 {
+    bottom: 100px;
+    left: 50px;
+    width: 65%;
+    
+}
+
+.necklace-text2 h1 {
+    font-size: 28px;
+    line-height: 1.4;
+}
+
+.necklace-text-img1 {
+    left: 40px;
+    padding-top: 300px;
+    width: 65%;
+    height: 60vh;
+    text-align: center;
+}
+
+.necklace-text-img1 h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.necklace-text-img1 p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.necklace-btn2 {
+    padding: 10px 25px;
+    border: 1px solid gold;
+    background: transparent;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.necklace-btn2:hover {
+    background: gold;
+    color: black;
+}
+
+.membership-section {
+    background-color: #fddb73; 
+    padding: 30px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.membership-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1a1a1a; 
+}
+
+.membership-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.membership-perks {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0 0 0;
+    max-width: 250px;
+    line-height: 1.2;
+}
+.btn-join {
+    background-color: #111;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.btn-join:hover {
+    transform: scale(1.05);
+}
+
+.site-footer {
+    background-color: #111;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #bbb;
+}
+
+
+@media (max-width: 1100px) {
+    .necklace-section {
+        padding: 0 40px;
+    }
+    
+    .necklace-text-img2 {
+        width: 100%;
+    }
+
+    .necklace-text {
+        left: 50%; 
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .logo-text {
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+
+    .nav-menu {
+        gap: 15px; 
+    }
+
+    .nav-menu a {
+        font-size: 13px;
+    }
+
+    .hero-banner {
+        height: 500px;
+        justify-content: center; 
+        text-align: center;
+        padding: 0 5%;
+    }
+
+    .hero-title {
+        font-size: 45px;
+    }
+
+    .necklace-section {
+        padding: 0 20px;
+    }
+
+    .necklace-container {
+        gap: 30px;
+    }
+
+    .necklace-text-img, .necklace-text-img2 {
+        height: 450px;
+    }
+
+    .necklace-text {
+        position: relative; 
+        top: 0;
+        left: 0;
+        text-align: center;
+        padding-top: 150px;
+        width: 100%;
+    }
+
+    .necklace-btn2 {
+        margin-top: 30px;
+    }
+
+    .necklace-container2 {
+        flex-direction: column;
+    }
+
+    .necklace-box2 {
+        flex: none;
+        width: 100%;
+    }
+
+    .necklace-text2, .necklace-text-img1 {
+        width: 90%;
+        left: 5%;
+        text-align: center;
+    }
+
+    .necklace-text-img1 {
+        padding-top: 250px;
+    }
+
+    .membership-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .membership-perks {
+        max-width: 100%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-header {
+        padding: 20px 10px;
+    }
+
+    .hero-title {
+        font-size: 35px;
+    }
+
+    .hero-subtitle {
+        font-size: 20px;
+    }
+
+    .necklace-text-img1 h1 {
+        font-size: 24px;
+    }
+
+    .membership-title {
+        font-size: 26px;
+    }
+    
+    .btn-shop, .necklace-btn, .necklace-btn2 {
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+}
